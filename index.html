@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="theme-color" content="#0b100e">
-<meta name="description" content="Acompanhe as mensagens, os vídeos e o conteúdo do pastor Paulo Henrique.">
+<meta name="description" content="Acompanhe as mensagens, os vídeos e o conteúdo do pregador Paulo Henrique.">
 <title>Paulo Henrique | Fé, Palavra e Propósito</title>
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -451,7 +451,6 @@ img {
   background: #1a2820;
 }
 
-/* Gradiente que garante leitura perfeita sem poluir */
 .portrait-image-wrap::after {
   content: "";
   position: absolute;
@@ -497,34 +496,6 @@ img {
   color: #d7e0d8;
   font-size: 12.5px;
   margin-top: 4px;
-}
-
-/* Selo flutuante no topo - totalmente livre do texto inferior */
-.floating-tag {
-  position: absolute;
-  right: 22px;
-  top: 22px;
-  z-index: 6;
-  padding: 11px 16px;
-  border: 1px solid rgba(183,245,200,.26);
-  border-radius: 15px;
-  background: rgba(14, 21, 17, 0.88);
-  backdrop-filter: blur(14px);
-  -webkit-backdrop-filter: blur(14px);
-  box-shadow: 0 14px 35px rgba(0,0,0,.45);
-}
-
-.floating-tag span {
-  display: block;
-  color: var(--muted);
-  font-size: 10.5px;
-}
-
-.floating-tag strong {
-  display: block;
-  color: var(--green);
-  font-size: 12.5px;
-  margin-top: 2px;
 }
 
 /* LINKS RÁPIDOS */
@@ -671,7 +642,7 @@ img {
   font-size: 11px;
 }
 
-/* VÍDEOS / MENSAGENS COM CAPA DO YOUTUBE */
+/* VÍDEOS / MENSAGENS */
 
 .messages {
   padding: 85px 0;
@@ -1145,13 +1116,6 @@ img {
     font-size: 21px;
   }
 
-  .floating-tag {
-    top: 16px;
-    right: 16px;
-    padding: 9px 13px;
-    border-radius: 13px;
-  }
-
   .quick-links {
     padding-bottom: 54px;
   }
@@ -1299,13 +1263,10 @@ img {
         <rect width="44" height="44" rx="14" fill="#132219"/>
         <rect x="0.8" y="0.8" width="42.4" height="42.4" rx="13.2" stroke="#B7F5C8" stroke-width="1.2" stroke-opacity="0.32"/>
         <circle cx="22" cy="22" r="18" stroke="#B7F5C8" stroke-width="0.8" stroke-opacity="0.12" stroke-dasharray="2 3"/>
-        <!-- Letra P -->
         <path d="M11 12.5V31.5" stroke="#B7F5C8" stroke-width="2.6" stroke-linecap="round"/>
         <path d="M11 12.5H18C21.31 12.5 24 14.74 24 17.5C24 20.26 21.31 22.5 18 22.5H11" stroke="#B7F5C8" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
-        <!-- Letra H interligada -->
         <path d="M21 22.5H33" stroke="#B7F5C8" stroke-width="2.6" stroke-linecap="round"/>
         <path d="M33 12.5V31.5" stroke="#B7F5C8" stroke-width="2.6" stroke-linecap="round"/>
-        <!-- Detalhe superior da Cruz ministerial -->
         <path d="M22 6.5V9.5M20.5 8H23.5" stroke="#B7F5C8" stroke-width="1.2" stroke-linecap="round"/>
       </svg>
       <span class="brand-copy">
@@ -1346,7 +1307,7 @@ img {
 
     <nav class="mobile-nav" id="mobileNav" aria-label="Menu para celular" inert>
       <a href="#inicio">Início <span>↗</span></a>
-      <a href="#sobre">Sobre o pastor <span>↗</span></a>
+      <a href="#sobre">Sobre o pregador <span>↗</span></a>
       <a href="#mensagens">Mensagens <span>↗</span></a>
       <a href="#youtube">Canal no YouTube <span>↗</span></a>
       <a href="#oracao">Pedido de oração <span>↗</span></a>
@@ -1408,21 +1369,15 @@ img {
               class="portrait-image"
               id="pastorPhoto"
               src="https://res.cloudinary.com/dwrq06fta/image/upload/v1791551944/file_00000000ea10820ea218e29685a39b06_zgcnbk.webp"
-              alt="Foto do pastor Paulo Henrique"
+              alt="Foto do pregador Paulo Henrique"
               referrerpolicy="no-referrer"
               fetchpriority="high">
 
             <div class="portrait-label">
-              <span>Pastor</span>
+              <span>Pregador</span>
               <strong>Paulo Henrique</strong>
               <p>Fé que inspira. Palavra que transforma.</p>
             </div>
-          </div>
-
-          <!-- Selo reposicionado no topo: sem colisão de texto -->
-          <div class="floating-tag">
-            <span>Uma mensagem de cada vez</span>
-            <strong>Continue na fé.</strong>
           </div>
         </div>
       </div>
@@ -1493,7 +1448,7 @@ img {
 
       <div class="about-content reveal">
         <span class="eyebrow">Conheça</span>
-        <h2>Pastor Paulo Henrique</h2>
+        <h2>Pregador Paulo Henrique</h2>
 
         <p>
           Seja bem-vindo a este espaço de fé, reflexão e conexão com a Palavra
@@ -1519,7 +1474,7 @@ img {
     </div>
   </section>
 
-  <!-- MENSAGENS COM VÍDEOS REAIS E CAPAS DO CANAL DO PASTOR -->
+  <!-- MENSAGENS COM ATUALIZAÇÃO AUTOMÁTICA -->
   <section class="messages" id="mensagens">
     <div class="container">
 
@@ -1528,7 +1483,7 @@ img {
           <span class="eyebrow">Alimente sua fé</span>
           <h2>Mensagens em <span class="accent">destaque</span></h2>
           <p>
-            Assista às últimas mensagens ministradas pelo pastor Paulo Henrique
+            Assista às últimas mensagens ministradas pelo pregador Paulo Henrique
             diretamente do canal no YouTube.
           </p>
         </div>
@@ -1540,9 +1495,9 @@ img {
         </a>
       </div>
 
-      <div class="message-grid">
+      <div class="message-grid" id="messageGrid">
 
-        <!-- VÍDEO 1 -->
+        <!-- VÍDEO 1 (PADRÃO / FALLBACK) -->
         <article class="message-card reveal">
           <a class="message-media"
              href="https://www.youtube.com/watch?v=hojTjscXrb4"
@@ -1573,7 +1528,7 @@ img {
           </div>
         </article>
 
-        <!-- VÍDEO 2 -->
+        <!-- VÍDEO 2 (PADRÃO / FALLBACK) -->
         <article class="message-card reveal">
           <a class="message-media"
              href="https://www.youtube.com/watch?v=q0kWkXl6BsM"
@@ -1604,7 +1559,7 @@ img {
           </div>
         </article>
 
-        <!-- VÍDEO 3 -->
+        <!-- VÍDEO 3 (PADRÃO / FALLBACK) -->
         <article class="message-card reveal">
           <a class="message-media"
              href="https://www.youtube.com/watch?v=--RWGOZOY2U"
@@ -1653,7 +1608,7 @@ img {
           <span class="eyebrow">Continue acompanhando</span>
           <h2>Leve a Palavra com você.</h2>
           <p>
-            Acesse o canal do pastor Paulo Henrique no YouTube para encontrar
+            Acesse o canal do pregador Paulo Henrique no YouTube para encontrar
             todos os vídeos, pregações e acompanhar as próximas mensagens.
           </p>
         </div>
@@ -1683,7 +1638,7 @@ img {
 
         <p>
           Se você deseja compartilhar um pedido de oração ou entrar em contato,
-          envie uma mensagem pelo Instagram do pastor.
+          envie uma mensagem pelo Instagram do pregador.
         </p>
 
         <a class="btn btn-primary"
@@ -1724,7 +1679,7 @@ img {
         <a class="social-link"
            href="https://www.instagram.com/paulohenriquegoncalves471/"
            target="_blank" rel="noopener noreferrer"
-           aria-label="Instagram do pastor">
+           aria-label="Instagram do pregador">
           <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
             <rect x="3" y="3" width="18" height="18" rx="5" stroke="currentColor" stroke-width="1.7"/>
             <circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.7"/>
@@ -1735,7 +1690,7 @@ img {
         <a class="social-link"
            href="https://www.youtube.com/@paulohenriquegoncalves83"
            target="_blank" rel="noopener noreferrer"
-           aria-label="YouTube do pastor">
+           aria-label="YouTube do pregador">
           <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
             <path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8ZM9.6 15.6V8.4l6.3 3.6-6.3 3.6Z"/>
           </svg>
@@ -1816,6 +1771,77 @@ img {
 
   document.getElementById("currentYear").textContent =
     new Date().getFullYear();
+
+  /* ========================================================
+     ATUALIZAÇÃO AUTOMÁTICA DOS ÚLTIMOS VÍDEOS DO YOUTUBE
+     ======================================================== */
+  const YOUTUBE_CHANNEL_ID = "COLOQUE_SEU_CHANNEL_ID_AQUI"; // Cole o Channel ID do YouTube aqui (começa com UC...)
+
+  async function atualizarVideosAutomaticamente() {
+    if (!YOUTUBE_CHANNEL_ID || YOUTUBE_CHANNEL_ID === "COLOQUE_SEU_CHANNEL_ID_AQUI") {
+      return; // Mantém os vídeos padrões caso o ID ainda não tenha sido configurado
+    }
+
+    try {
+      const feedUrl = `https://www.youtube.com/feeds/videos.xml?channel_id=${YOUTUBE_CHANNEL_ID}`;
+      const response = await fetch(`https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(feedUrl)}`);
+      const data = await response.json();
+
+      if (data.status === "ok" && data.items && data.items.length > 0) {
+        const grid = document.getElementById("messageGrid");
+        const ultimosVideos = data.items.slice(0, 3);
+
+        grid.innerHTML = ultimosVideos.map((video) => {
+          let videoId = "";
+          if (video.guid && video.guid.includes(":")) {
+            videoId = video.guid.split(":").pop();
+          } else if (video.link && video.link.includes("v=")) {
+            videoId = video.link.split("v=")[1].split("&")[0];
+          }
+
+          const thumb = videoId 
+            ? `https://img.youtube.com/vi/${videoId}/hqdefault.jpg` 
+            : (video.thumbnail || "https://img.youtube.com/vi/hojTjscXrb4/hqdefault.jpg");
+
+          const titulo = video.title || "Mensagem da Palavra de Deus";
+          const link = video.link || `https://www.youtube.com/watch?v=${videoId}`;
+
+          return `
+            <article class="message-card is-visible">
+              <a class="message-media"
+                 href="${link}"
+                 target="_blank" rel="noopener noreferrer"
+                 aria-label="Assistir ${titulo}">
+                <img class="message-thumb"
+                     src="${thumb}"
+                     alt="Capa do vídeo ${titulo}"
+                     loading="lazy">
+                <div class="play-badge">
+                  <span class="play-circle">
+                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+                  </span>
+                </div>
+              </a>
+              <div class="message-body">
+                <span class="message-category">Mensagem Recente</span>
+                <h3>${titulo}</h3>
+                <p>Assista à nova reflexão ministrada pelo pregador Paulo Henrique no canal do YouTube.</p>
+                <a class="text-link"
+                   href="${link}"
+                   target="_blank" rel="noopener noreferrer">
+                  Assistir mensagem <span>→</span>
+                </a>
+              </div>
+            </article>
+          `;
+        }).join("");
+      }
+    } catch (err) {
+      console.warn("Aviso: Não foi possível carregar os vídeos recentes automaticamente. Exibindo os vídeos fixos.", err);
+    }
+  }
+
+  atualizarVideosAutomaticamente();
 
   /* Animações ao rolar */
   const revealItems = document.querySelectorAll(".reveal");
