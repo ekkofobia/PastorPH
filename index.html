@@ -1775,13 +1775,9 @@ img {
   /* ========================================================
      ATUALIZAÇÃO AUTOMÁTICA DOS ÚLTIMOS VÍDEOS DO YOUTUBE
      ======================================================== */
-  const YOUTUBE_CHANNEL_ID = "COLOQUE_SEU_CHANNEL_ID_AQUI"; // Cole o Channel ID do YouTube aqui (começa com UC...)
+  const YOUTUBE_CHANNEL_ID = "UCtPtu_Wke2THlMWaqiKcsfw";
 
   async function atualizarVideosAutomaticamente() {
-    if (!YOUTUBE_CHANNEL_ID || YOUTUBE_CHANNEL_ID === "COLOQUE_SEU_CHANNEL_ID_AQUI") {
-      return; // Mantém os vídeos padrões caso o ID ainda não tenha sido configurado
-    }
-
     try {
       const feedUrl = `https://www.youtube.com/feeds/videos.xml?channel_id=${YOUTUBE_CHANNEL_ID}`;
       const response = await fetch(`https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(feedUrl)}`);
@@ -1825,7 +1821,7 @@ img {
               <div class="message-body">
                 <span class="message-category">Mensagem Recente</span>
                 <h3>${titulo}</h3>
-                <p>Assista à nova reflexão ministrada pelo pregador Paulo Henrique no canal do YouTube.</p>
+                <p>Assista à nova palavra de fé e edificação ministrada pelo pregador Paulo Henrique.</p>
                 <a class="text-link"
                    href="${link}"
                    target="_blank" rel="noopener noreferrer">
@@ -1837,7 +1833,7 @@ img {
         }).join("");
       }
     } catch (err) {
-      console.warn("Aviso: Não foi possível carregar os vídeos recentes automaticamente. Exibindo os vídeos fixos.", err);
+      console.warn("Aviso: Falha ao carregar feed dinâmico do YouTube. Exibindo os vídeos padrões.", err);
     }
   }
 
